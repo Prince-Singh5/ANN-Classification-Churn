@@ -1,4 +1,4 @@
-tensorflow
+tensorflow==2.21.0rc1
 pandas
 numpy
 scikit-learn

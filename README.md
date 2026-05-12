@@ -23,6 +23,6 @@ The model is built using an **Artificial Neural Network (ANN)** architecture, tr
 ## 🏗️ Model Architecture
 ```python
 model = Sequential()
-model.add(Dense(64, activation='relu', input_dim=feature_count))
+model.add(Dense(64, activation='relu', input_shape=(X_train.shape[1],))
 model.add(Dense(32, activation='relu'))
 model.add(Dense(1, activation='sigmoid'))
